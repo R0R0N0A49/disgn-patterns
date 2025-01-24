@@ -1,4 +1,4 @@
-# disgn-patterns :
+# disgn-patterns
 
 [builder](#builder)
 
