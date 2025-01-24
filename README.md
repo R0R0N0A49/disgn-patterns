@@ -58,6 +58,7 @@ int main() {
 
 2. ### Builder
    Construire des objets complexes en plusieurs étapes avec le même code, extraire les paramètres non obligatoires
+   
 ***Exemple :***
 ```c++
 #include <iostream>
@@ -129,6 +130,7 @@ int main() {
 
 3. ### Prototype
     copy les données d'une classe sans connaître la classe
+   
 ***Exemple :***
 ```c++
 #include <iostream>
@@ -191,6 +193,7 @@ int main() {
 
 1. ### Decorator
     Ajoute dynamiquement des comportements à une instance
+   
 ***Exemple :***
 ```c++
 #include <iostream>
@@ -272,6 +275,7 @@ int main() {
 
 2. ### Bridge
    crée des hiérarchies de classes indépendantes
+   
 ***Exemple :***
 ```c++
 #include <iostream>
@@ -359,6 +363,7 @@ int main() {
 
 3. ### Conposite
   Agence des objets en arborescence de manière à traiter un élément de manière individuelle (demande aux objets eux-mêmes d'interagir avec leurs sous-éléments)
+  
 ***Exemple :***
 ```c++
 #include <iostream>
@@ -434,6 +439,7 @@ int main() {
 
 4. ### Facades
    fournit une interface devant des fonctionaliter complex (facilite l'acces a une fonction d'une biblihoteque complex a l'aide d'une autre fonction)
+   
 ***Exemple :***
 ```c++
 #include <iostream>
@@ -511,6 +517,7 @@ int main() {
 
 5. ### FlyWeight
     Permet de stocker plus d'objets dans la RAM en optimisant l'espace utilisé. Crée une seule fois les parties d'un objet qui ne changent pas.
+   
 ***Exemple :***
 ```c++
 #include <iostream>
@@ -568,6 +575,7 @@ int main() {
 
 7. ### Proxy
    Utiliser un substitut d'un objet directement. On peut ajouter des opérations avant et après les appels.
+   
 ***Exemple :***
 ```c++
 #include <iostream>
@@ -610,6 +618,7 @@ int main() {
 
 1. ## command
     Représentation des actions par des commandes stockées, exécutées, annulées, etc...
+   
 ***Exemple :***
 ```c++
 #include <iostream>
@@ -696,6 +705,7 @@ int main() {
 
 2. ### Memento
     faire une sauvegarde de l'état d'un objet et restaurer un objet sans connaître la structure interne de l'objet
+   
 ***Exemple :***
 ```c++
 #include <iostream>
@@ -763,6 +773,7 @@ int main() {
 
 4. ### Observer
     préviens qu'un événement vient de se produire
+   
 ***Exemple :***
 ``` c++
 #include <iostream>
@@ -840,6 +851,7 @@ int main() {
 
 6. ### Strategy
     famille d'algorithmes utilisable et interchangeable dynamiquement
+   
 ***Exemple :***
 ```c++
 #include <iostream>
@@ -903,6 +915,7 @@ int main() {
 
 7. ### Chain-of-Responsability
    permet à une requête d'être traitée par une série d'objets, où chaque objet a la possibilité de traiter la requête ou de la transmettre à l'objet suivant dans la chaîne
+   
 ***Exemple :***
 ```c++
 #include <iostream>
