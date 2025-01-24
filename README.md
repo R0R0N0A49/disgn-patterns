@@ -362,7 +362,7 @@ int main() {
 [HOME](#disgn-patterns)
 
 3. ### Conposite
-  Agence des objets en arborescence de manière à traiter un élément de manière individuelle (demande aux objets eux-mêmes d'interagir avec leurs sous-éléments)
+    Agence des objets en arborescence de manière à traiter un élément de manière individuelle (demande aux objets eux-mêmes d'interagir avec leurs sous-éléments)
   
 ***Exemple :***
 ```c++
