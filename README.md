@@ -55,6 +55,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 2. ### Builder
    Construire des objets complexes en plusieurs étapes avec le même code, extraire les paramètres non obligatoires
 ***Exemple :***
@@ -125,6 +126,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 3. ### Prototype
     copy les données d'une classe sans connaître la classe
 ***Exemple :***
@@ -184,6 +186,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 ## Patron Structurel
 
 1. ### Decorator
@@ -266,6 +269,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 2. ### bridge
    crée des hiérarchies de classes indépendantes
 ***Exemple :***
@@ -352,6 +356,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 3. ### conposite
   Agence des objets en arborescence de manière à traiter un élément de manière individuelle (demande aux objets eux-mêmes d'interagir avec leurs sous-éléments)
 ***Exemple :***
@@ -426,6 +431,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 4. ### facades
    fournit une interface devant des fonctionaliter complex (facilite l'acces a une fonction d'une biblihoteque complex a l'aide d'une autre fonction)
 ***Exemple :***
@@ -502,6 +508,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 5. ### FlyWeight
     Permet de stocker plus d'objets dans la RAM en optimisant l'espace utilisé. Crée une seule fois les parties d'un objet qui ne changent pas.
 ***Exemple :***
@@ -558,6 +565,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 7. ### Proxy
    Utiliser un substitut d'un objet directement. On peut ajouter des opérations avant et après les appels.
 ***Exemple :***
@@ -597,6 +605,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 ## Conportementaux
 
 1. ## command
@@ -684,6 +693,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 2. ### Memento
     faire une sauvegarde de l'état d'un objet et restaurer un objet sans connaître la structure interne de l'objet
 ***Exemple :***
@@ -750,6 +760,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 4. ### Observer :
     préviens qu'un événement vient de se produire
 ***Exemple :***
@@ -826,6 +837,7 @@ int main() {
 
 ```
 [HOME](#disgn-patterns)
+
 6. ### Strategy :
     famille d'algorithmes utilisable et interchangeable dynamiquement
 ***Exemple :***
@@ -888,6 +900,7 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
 7. ### Chain-of-Responsability :
    permet à une requête d'être traitée par une série d'objets, où chaque objet a la possibilité de traiter la requête ou de la transmettre à l'objet suivant dans la chaîne
 ***Exemple :***
