@@ -1,4 +1,4 @@
-# disgn-patterns <span style="color:green">Texte Vert</span>
+# disgn-patterns
 |Pattern de creation|Pattern structurel| Pattern Conportementaux|
 |-------------------|------------------|------------------------|
 |[Singleton](#Singleton)|[Decorator](#Decorator)|[Command](#Command)|
