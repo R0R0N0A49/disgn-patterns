@@ -4,7 +4,7 @@
 |[Singleton](#Singleton)|[Decorator](#Decorator)|[Command](#Command)|
 |[Builder](#Builder)|[Bridge](#Bridge)|[Memento](#Memento)|
 |[Prototype](#Prototype)|[Composite](#Conposite)|[Observer](#Observer)|
-||[Facades](#Facades)|[strategy](#Stategy)|
+||[Facades](#Facades)|[Strategy](#Strategy)|
 ||[FlyWeight](#FlyWeight)|[Chain-of-Responsability](#Chain-of-Responsability)|
 ||[Proxy](#Proxy)||
 
