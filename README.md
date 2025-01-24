@@ -270,7 +270,7 @@ int main() {
 ```
 [HOME](#disgn-patterns)
 
-2. ### bridge
+2. ### Bridge
    crée des hiérarchies de classes indépendantes
 ***Exemple :***
 ```c++
@@ -357,7 +357,7 @@ int main() {
 ```
 [HOME](#disgn-patterns)
 
-3. ### conposite
+3. ### Conposite
   Agence des objets en arborescence de manière à traiter un élément de manière individuelle (demande aux objets eux-mêmes d'interagir avec leurs sous-éléments)
 ***Exemple :***
 ```c++
@@ -432,7 +432,7 @@ int main() {
 ```
 [HOME](#disgn-patterns)
 
-4. ### facades
+4. ### Facades
    fournit une interface devant des fonctionaliter complex (facilite l'acces a une fonction d'une biblihoteque complex a l'aide d'une autre fonction)
 ***Exemple :***
 ```c++
@@ -761,7 +761,7 @@ int main() {
 ```
 [HOME](#disgn-patterns)
 
-4. ### Observer :
+4. ### Observer
     préviens qu'un événement vient de se produire
 ***Exemple :***
 ``` c++
@@ -838,7 +838,7 @@ int main() {
 ```
 [HOME](#disgn-patterns)
 
-6. ### Strategy :
+6. ### Strategy
     famille d'algorithmes utilisable et interchangeable dynamiquement
 ***Exemple :***
 ```c++
@@ -901,7 +901,7 @@ int main() {
 ```
 [HOME](#disgn-patterns)
 
-7. ### Chain-of-Responsability :
+7. ### Chain-of-Responsability
    permet à une requête d'être traitée par une série d'objets, où chaque objet a la possibilité de traiter la requête ou de la transmettre à l'objet suivant dans la chaîne
 ***Exemple :***
 ```c++
