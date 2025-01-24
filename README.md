@@ -1,9 +1,12 @@
-# disgn-patterns
+# disgn-patterns <span style="color:green">Texte Vert</span>
 |Pattern de creation|Pattern structurel| Pattern Conportementaux|
 |-------------------|------------------|------------------------|
-|[Singleton](#Singleton)|NULL|NULL|
-|[builder](#builder)|NULL|NULL|
-|[Prototype](#Prototype)|NULL|NULL|
+|[Singleton](#Singleton)|[Decorator](#Decorator)|[Command](#Command)|
+|[builder](#builder)|[Brige](#Brige)|[Memento](#Memento)|
+|[Prototype](#Prototype)|[Composite](#Conposite)|[Observer](#Observer)|
+||[Facades](#facedes)|[strategy](#Stategy)|
+||[FlyWeight](#FlyWeight)|[Chain-of-Responsability](#Chain-of-Responsability)|
+||[Proxy](#Proxy)||
 
 ## Pattern de Creation :
 
@@ -51,9 +54,10 @@ int main() {
     return 0;
 }
 ```
-
+[HOME](#disgn-patterns)
 2. ### Builder
    Construire des objets complexes en plusieurs étapes avec le même code, extraire les paramètres non obligatoires
+***Exemple :***
 ```c++
 #include <iostream>
 #include <string>
@@ -120,9 +124,10 @@ int main() {
     return 0;
 }
 ```
-
+[HOME](#disgn-patterns)
 3. ### Prototype
     copy les données d'une classe sans connaître la classe
+***Exemple :***
 ```c++
 #include <iostream>
 #include <string>
@@ -178,10 +183,12 @@ int main() {
     return 0;
 }
 ```
-## Patron Structurel :
+[HOME](#disgn-patterns)
+## Patron Structurel
 
-1. ### Decorator :
+1. ### Decorator
     Ajoute dynamiquement des comportements à une instance
+***Exemple :***
 ```c++
 #include <iostream>
 #include <string>
@@ -258,8 +265,10 @@ int main() {
     return 0;
 }
 ```
-2. ### bridge :
+[HOME](#disgn-patterns)
+2. ### bridge
    crée des hiérarchies de classes indépendantes
+***Exemple :***
 ```c++
 #include <iostream>
 #include <string>
@@ -342,8 +351,10 @@ int main() {
     return 0;
 }
 ```
-3. ### conposite :
+[HOME](#disgn-patterns)
+3. ### conposite
   Agence des objets en arborescence de manière à traiter un élément de manière individuelle (demande aux objets eux-mêmes d'interagir avec leurs sous-éléments)
+***Exemple :***
 ```c++
 #include <iostream>
 #include <vector>
@@ -414,8 +425,10 @@ int main() {
     return 0;
 }
 ```
-4. ### facades :
+[HOME](#disgn-patterns)
+4. ### facades
    fournit une interface devant des fonctionaliter complex (facilite l'acces a une fonction d'une biblihoteque complex a l'aide d'une autre fonction)
+***Exemple :***
 ```c++
 #include <iostream>
 #include <string>
@@ -488,9 +501,10 @@ int main() {
     return 0;
 }
 ```
-
-5. ### flyWeight
+[HOME](#disgn-patterns)
+5. ### FlyWeight
     Permet de stocker plus d'objets dans la RAM en optimisant l'espace utilisé. Crée une seule fois les parties d'un objet qui ne changent pas.
+***Exemple :***
 ```c++
 #include <iostream>
 #include <unordered_map>
@@ -543,8 +557,10 @@ int main() {
     return 0;
 }
 ```
+[HOME](#disgn-patterns)
 7. ### Proxy
    Utiliser un substitut d'un objet directement. On peut ajouter des opérations avant et après les appels.
+***Exemple :***
 ```c++
 #include <iostream>
 #include <string>
@@ -580,9 +596,12 @@ int main() {
     return 0;
 }
 ```
-## Conportementaux :
+[HOME](#disgn-patterns)
+## Conportementaux
+
 1. ## command
     Représentation des actions par des commandes stockées, exécutées, annulées, etc...
+***Exemple :***
 ```c++
 #include <iostream>
 #include <vector>
@@ -664,8 +683,10 @@ int main() {
     return 0;
 }
 ```
-2. ### memento
+[HOME](#disgn-patterns)
+2. ### Memento
     faire une sauvegarde de l'état d'un objet et restaurer un objet sans connaître la structure interne de l'objet
+***Exemple :***
 ```c++
 #include <iostream>
 #include <string>
@@ -728,8 +749,10 @@ int main() {
     return 0;
 }
 ```
-4. ### observer :
+[HOME](#disgn-patterns)
+4. ### Observer :
     préviens qu'un événement vient de se produire
+***Exemple :***
 ``` c++
 #include <iostream>
 #include <vector>
@@ -802,8 +825,10 @@ int main() {
 }
 
 ```
-6. ### strategy :
+[HOME](#disgn-patterns)
+6. ### Strategy :
     famille d'algorithmes utilisable et interchangeable dynamiquement
+***Exemple :***
 ```c++
 #include <iostream>
 #include <memory>
@@ -862,8 +887,10 @@ int main() {
     return 0;
 }
 ```
-7. ### chain of responsability :
+[HOME](#disgn-patterns)
+7. ### Chain-of-Responsability :
    permet à une requête d'être traitée par une série d'objets, où chaque objet a la possibilité de traiter la requête ou de la transmettre à l'objet suivant dans la chaîne
+***Exemple :***
 ```c++
 #include <iostream>
 #include <memory>
