@@ -1,10 +1,13 @@
 # disgn-patterns
-
-[builder](#builder_:)
+|Pattern de creation|Pattern structurel| Pattern Conportementaux|
+|-------------------|------------------|------------------------|
+|[Singleton](#Singleton)|NULL|NULL|
+|[builder](#builder)|NULL|NULL|
+|[Prototype](#Prototype)|NULL|NULL|
 
 ## Pattern de Creation :
 
-1. ### Singleton :
+1. ### Singleton
     garantir l'unicité d'une instance et fournir son point d'accès
 
 ***Exemple :***
@@ -49,7 +52,7 @@ int main() {
 }
 ```
 
-2. ### Builder :
+2. ### Builder
    Construire des objets complexes en plusieurs étapes avec le même code, extraire les paramètres non obligatoires
 ```c++
 #include <iostream>
@@ -118,7 +121,7 @@ int main() {
 }
 ```
 
-3. ### Prototype :
+3. ### Prototype
     copy les données d'une classe sans connaître la classe
 ```c++
 #include <iostream>
