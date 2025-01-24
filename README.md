@@ -2,7 +2,7 @@
 |Pattern de creation|Pattern structurel| Pattern Conportementaux|
 |-------------------|------------------|------------------------|
 |[Singleton](#Singleton)|[Decorator](#Decorator)|[Command](#Command)|
-|[Builder](#Builder)|[Brige](#Bridge)|[Memento](#Memento)|
+|[Builder](#Builder)|[Bridge](#Bridge)|[Memento](#Memento)|
 |[Prototype](#Prototype)|[Composite](#Conposite)|[Observer](#Observer)|
 ||[Facades](#facedes)|[strategy](#Stategy)|
 ||[FlyWeight](#FlyWeight)|[Chain-of-Responsability](#Chain-of-Responsability)|
