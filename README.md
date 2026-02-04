@@ -1,12 +1,12 @@
 # disgn-patterns
-|Pattern de creation|use|Pattern structurel| Pattern Conportementaux|
-|-------------------|---|------------------|------------------------|
-|[Singleton](#Singleton)||[Decorator](#Decorator)|[Command](#Command)|
-|[Builder](#Builder)||[Bridge](#Bridge)|[Memento](#Memento)|
-|[Prototype](#Prototype)||[Composite](#Conposite)|[Observer](#Observer)|
-|[Factory Methode](#Factory-Methode)||[Facades](#Facades)|[Strategy](#Strategy)|
-|||[FlyWeight](#FlyWeight)|[Chain-of-Responsability](#Chain-of-Responsability)|
-|||[Proxy](#Proxy)||
+|Pattern de creation|use|Pattern structurel|use|Pattern Conportementaux|use|
+|-------------------|---|------------------|---|------------------------|---|
+|[Singleton](#Singleton)|✅|[Decorator](#Decorator)|❌|[Command](#Command)|❌|
+|[Builder](#Builder)|❌|[Bridge](#Bridge)|❌|[Memento](#Memento)|❌|
+|[Prototype](#Prototype)|❌|[Composite](#Conposite)|❌|[Observer](#Observer)|❌|
+|[Factory Methode](#Factory-Methode)|❌|[Facades](#Facades)|❌|[Strategy](#Strategy)|❌|
+||||[FlyWeight](#FlyWeight)|❌|[Chain-of-Responsability](#Chain-of-Responsability)|❌|
+||||[Proxy](#Proxy)|❌|
 
 ## Pattern de Creation :
 
