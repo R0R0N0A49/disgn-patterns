@@ -4,7 +4,7 @@
 |[Singleton](#Singleton)|[Decorator](#Decorator)|[Command](#Command)|
 |[Builder](#Builder)|[Bridge](#Bridge)|[Memento](#Memento)|
 |[Prototype](#Prototype)|[Composite](#Conposite)|[Observer](#Observer)|
-||[Facades](#Facades)|[Strategy](#Strategy)|
+|[Factory Methode](#Factory-Methode)|[Facades](#Facades)|[Strategy](#Strategy)|
 ||[FlyWeight](#FlyWeight)|[Chain-of-Responsability](#Chain-of-Responsability)|
 ||[Proxy](#Proxy)||
 
@@ -188,6 +188,66 @@ int main() {
 }
 ```
 [HOME](#disgn-patterns)
+
+4. ### Factory-Methode
+   permet de cree une classe sans savoir exactement quelle classe est cree
+
+   ***Exemple :***
+   ```c++
+    #include <iostream>
+    #include <memory>
+    #include <stdexcept>
+    
+    // 1️⃣ Interface (classe abstraite)
+    class Paiement {
+    public:
+        virtual void payer() = 0;
+        virtual ~Paiement() = default;
+    };
+    
+    // 2️⃣ Implémentations concrètes
+    class PaiementCarte : public Paiement {
+    public:
+        void payer() override {
+            std::cout << "Paiement par carte" << std::endl;
+        }
+    };
+    
+    class PaiementPaypal : public Paiement {
+    public:
+        void payer() override {
+            std::cout << "Paiement par PayPal" << std::endl;
+        }
+    };
+    
+    class PaiementVirement : public Paiement {
+    public:
+        void payer() override {
+            std::cout << "Paiement par virement" << std::endl;
+        }
+    };
+    
+    // 3️⃣ Factory Method
+    class PaiementFactory {
+    public:
+        static std::unique_ptr<Paiement> creerPaiement(const std::string& type) {
+            if (type == "carte")
+                return std::make_unique<PaiementCarte>();
+            if (type == "paypal")
+                return std::make_unique<PaiementPaypal>();
+            if (type == "virement")
+                return std::make_unique<PaiementVirement>();
+    
+            throw std::invalid_argument("Type de paiement inconnu");
+        }
+    };
+    
+    // 4️⃣ Utilisation
+    int main() {
+        auto paiement = PaiementFactory::creerPaiement("paypal");
+        paiement->payer();
+        return 0;
+    }```
 
 ## Patron Structurel
 
