@@ -5,8 +5,8 @@
 |[Builder](#Builder)|❌|[Bridge](#Bridge)|❌|[Memento](#Memento)|❌|
 |[Prototype](#Prototype)|❌|[Composite](#Conposite)|❌|[Observer](#Observer)|❌|
 |[Factory Methode](#Factory-Methode)|❌|[Facades](#Facades)|❌|[Strategy](#Strategy)|❌|
-||||[FlyWeight](#FlyWeight)|❌|[Chain-of-Responsability](#Chain-of-Responsability)|❌|
-||||[Proxy](#Proxy)|❌|
+|||[FlyWeight](#FlyWeight)|❌|[Chain-of-Responsability](#Chain-of-Responsability)|❌|
+|||[Proxy](#Proxy)|❌|
 
 ## Pattern de Creation :
 
